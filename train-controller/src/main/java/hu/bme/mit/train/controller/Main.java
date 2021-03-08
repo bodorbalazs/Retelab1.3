@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Welcome to the epic train!");
         TrainControllerImpl TrainControl = new TrainControllerImpl();
         TrainControl.setSpeedLimit(222);
-        hehe
+
     }
 
 
