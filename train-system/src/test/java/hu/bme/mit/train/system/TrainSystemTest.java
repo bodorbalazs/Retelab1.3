@@ -55,5 +55,12 @@ public class TrainSystemTest {
 		Assert.assertNotNull(controller);
 	}
 
+	@Test
+	public void Tachotest(){
+		controller.followSpeed();
+		Assert.assertEquals(2,controller.gettacho().size());
+
+	}
+
 	
 }
