@@ -2,7 +2,7 @@ package hu.bme.mit.train.interfaces;
 
 import com.google.common.collect.Table;
 
-public interface TrainController {
+public interface TrainController  {
 
 	void followSpeed();
 
